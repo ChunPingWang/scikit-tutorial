@@ -30,5 +30,5 @@ axes[1].set_title('Sepal Length Distribution by Species')
 axes[1].set_ylabel('Sepal Length (cm)')
 
 plt.tight_layout()
-plt.savefig('exercises/unit1_visualization.png', dpi=100)
-print("圖表已儲存為 exercises/unit1_visualization.png")
+plt.savefig('unit1_visualization.png', dpi=100)
+print("圖表已儲存為 unit1_visualization.png")

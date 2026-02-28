@@ -139,7 +139,7 @@ axes[1].set_title('Feature Importance')
 axes[1].set_xlabel('Importance')
 
 plt.tight_layout()
-plt.savefig('exercises/unit7_titanic_final.png', dpi=100)
+plt.savefig('unit7_titanic_final.png', dpi=100)
 
 print("\n=== 專案完成！===")
 print("你已經完成了一個完整的機器學習專案流程：")

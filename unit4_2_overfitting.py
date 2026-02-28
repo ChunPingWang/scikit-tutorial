@@ -35,5 +35,5 @@ for ax, degree, title in zip(axes, degrees, titles):
     ax.set_ylim(-2, 2)
 
 plt.tight_layout()
-plt.savefig('exercises/unit4_overfitting.png', dpi=100)
+plt.savefig('unit4_overfitting.png', dpi=100)
 print("過擬合示意圖已儲存")

@@ -50,7 +50,7 @@ axes[2].set_title('True Labels (for comparison)')
 axes[2].legend()
 
 plt.tight_layout()
-plt.savefig('exercises/unit6_kmeans.png', dpi=100)
+plt.savefig('unit6_kmeans.png', dpi=100)
 print("K-Means 圖表已儲存")
 
 # 驗證手肘法

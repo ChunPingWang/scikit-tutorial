@@ -34,7 +34,7 @@ plt.colorbar(scatter, label='Digit')
 plt.xlabel(f'PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)')
 plt.ylabel(f'PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)')
 plt.title('PCA: 64D → 2D Visualization of Handwritten Digits')
-plt.savefig('exercises/unit6_pca.png', dpi=100)
+plt.savefig('unit6_pca.png', dpi=100)
 print("PCA 圖表已儲存")
 
 # 累積變異比例

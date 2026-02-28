@@ -55,5 +55,5 @@ for idx, (name, model) in enumerate(models.items()):
     axes[idx].set_title(f'{name}\nConfusion Matrix')
 
 plt.tight_layout()
-plt.savefig('exercises/unit5_confusion_matrix.png', dpi=100)
+plt.savefig('unit5_confusion_matrix.png', dpi=100)
 print("混淆矩陣圖已儲存")

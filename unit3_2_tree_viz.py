@@ -27,5 +27,5 @@ plot_tree(clf,
           fontsize=10)
 plt.title('Decision Tree for Iris Classification (max_depth=3)')
 plt.tight_layout()
-plt.savefig('exercises/unit3_decision_tree.png', dpi=120)
-print("決策樹圖已儲存為 exercises/unit3_decision_tree.png")
+plt.savefig('unit3_decision_tree.png', dpi=120)
+print("決策樹圖已儲存為 unit3_decision_tree.png")
